@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="f1" method="post" action="form.php">
+        <label for="">Nom</label>
+        <input type="text" name="nom"/><br><br>
+        <label for="">Prenom</label>
+        <input type="text" name="prenom"/><br><br>
+        <label for="">Age</label>
+        <input type="number" name="age" id="" min="1" max="100"><br><br>
+        <label for="">email</label>
+        <input type="email" name="email"><br><br>
+        <label for="">ville</label>
+        <select name="ville">
+            <option>Casablanca</option>
+            <option>Rabat</option>
+            <option>Tanger</option>
+            <option>Zagoura</option>
+        </select><br><br>
+        <label for="">Sexe</label>
+        <label for="sexe">F</label>
+        <input type="radio" name="sexe" value="F">
+        <label for="sex">M</label>
+        <input type="radio" name="sexe" value="M"><br><br>
+        <label for="">Description:</label><br>
+        <textarea name="description" id="" cols="30" rows="10"></textarea><br><br>
+        <label for="loisirs">Loisirs: </label>
+        <label for="lecture">lecture</label>
+        <input type="checkbox" name="loisirs" value="lecture">
+        <label for="gaming">gaming</label>
+        <input type="checkbox" name="loisirs" id="" value="gaming"><br><br>
+        <label for="">Date de naissance</label>
+        <input type="date" name="daten" id=""><br><br>
+        <input type="submit" value="valid"/>
+        <input type="reset" value="reset"/>
+    </form>
+</body>
+</html>
